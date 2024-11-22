@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+
+body{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, white, lightblue); /* Gradient from left to right */
+    font-family:'Courier New', Courier, monospace;
+    color: #add8e6;
+}
+
+div{
+    margin-bottom: 7px;
+}
+
+.Register-container{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:white;
+    padding: 30px;
+    border: 2px solid linear-gradient(45deg, white, lightblue);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 0.05fr 0.5fr;
+
+}
+
+.Register-container-mid{
+    display: grid;
+    grid-template-rows: 10fr 1fr 10fr;
+    grid-template-columns: 1fr;
+    margin: 0 5px 0 5px;
+}
+
+.Register-container-mid .line{
+    margin:0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: 1px solid ;    
+}
+.Register-container-mid .text{
+    padding: 0;
+    margin: 0;
+    font-style: bold;
+}
+
+.Register-container-Right{
+    align-items: center;
+    align-content: center;
+}
+
+.Register-container-left h1{
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 10px ;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.Register-container-left .Name-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px 1fr;
+    grid-gap: 5px
+}
+
+.Register-container-left input{
+    width: 100%;
+    border: 0px;
+    box-shadow: 0px 0 4px rgba(0, 0, 0, 0.3);
+    color:grey;
+}
+.Register-container-left .Name-part div{
+    color: grey;
+    font-size: 13px;
+}
+
+.Register-container-left h3{
+    margin: 0;
+    grid-row: 1/2;
+}
+
+.birthdate-container {
+    display: flex;
+    flex-direction: column; /* Or 'row' if you want them side-by-side */
+    gap: 5px;
+}
+
+.gender input{
+    width: auto;
+    box-shadow: 0 0 0;
+}
+
+button{
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0px 0 4px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(40deg, rgb(228, 248, 255), lightblue);
+    border-color: #add8e69d;
+    border-radius: 5px;
+    color:white;
+}
+
+#birthdate{
+    color: grey;
+}
+.gender{
+    margin-top: 20px;
+    color: grey;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.gender h3{
+    color:lightblue;
+    grid-column: 1/4;
+}
+
+.box{
+    background-image: linear-gradient(40deg, rgb(228, 248, 255), lightblue);
+    color: linear-gradient(45deg, white, lightblue);
+    width: 100%;
+    height: 10%;
+    
+    border-radius: 10px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    place-items: center; /* Centers all items */
+    
+}
+
+.box img{
+    height: 30px;
+    width: auto;
+    grid-template-columns: 3/4;
+}
