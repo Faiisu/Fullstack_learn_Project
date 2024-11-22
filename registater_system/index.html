@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="Register-container">
+            <div class ="Register-container-left">
+                <h1 class="header">Registration</h1>
+    
+                <div class="Name-part">
+                    <h3>Name</h3>
+                    <h3>Username</h3>
+                    <div class="Name">
+                        <input id = "name" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="Surname">
+                        <input id = "username" type="text" placeholder="Enter your username">
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <h3>Email Address</h3>
+                    <input id = "email" type="text" placeholder="Enter your email">
+                </div>
+                    <div>
+                    <h3>Phone number</h3>
+                    <input id ="phoneNumber" type="number" placeholder="Enter your Phone number">
+                </div>
+    
+                <div>
+                    <h3>Birth Date</h3>
+                    <input type="date" id="birthdate" class="birthdate-input">
+                </div>
+    
+                <div class="Name-part">
+                    <h3>Password</h3>
+                    <h3>Confirm</h3>
+                    <div class="Name">
+                        <input id = "passWord" type="password" placeholder="Enter your password">
+                    </div>
+                    <div class="Surname">
+                        <input id = "confirm_passWord" type="password" placeholder="Confirm your password">
+                    </div>
+                    
+                </div>
+    
+                <div class="gender">
+                    <h3>gender</h3>
+                    <div>
+                        <input name = "gender" type="radio">male
+                    </div>
+                    <div>
+                        <input name = "gender" type="radio">female
+                    </div>
+                    <div>
+                        <input name = "gender" type="radio">others
+                    </div>
+                </div>
+                <button onclick="sending_information()">REGISTER</button>
+            </div>
+            <div class="Register-container-mid">
+                <div class="line"></div>
+    
+                <div class="text">or</div>
+                <div class="line"></div>
+            </div>
+            <div class ="Register-container-Right">
+                <button class="box">
+                    <div></div>
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/022/484/509/small/google-lens-icon-logo-symbol-free-png.png" alt="A description of the picture" />
+                    <span>GOOGLE</span>
+                </button>
+                <button class="box">
+                    <div></div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/480px-Facebook_Logo_%282019%29.png" alt="A description of the picture" />
+                    <span>FACEBOOK</span>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- script linked -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+[Mouse Events]
+click: Triggered when an element is clicked.
+dblclick: Triggered when an element is double-clicked.
+mousedown: Triggered when a mouse button is pressed down on an element.
+mouseup: Triggered when a mouse button is released.
+mousemove: Triggered when the mouse pointer is moved.
+mouseover: Triggered when the mouse pointer enters an element.
+mouseout: Triggered when the mouse pointer leaves an element.
+mouseenter: Similar to mouseover, but does not bubble.
+mouseleave: Similar to mouseout, but does not bubble.
+contextmenu: Triggered when the right mouse button is clicked (context menu is opened).
+
+
+[Keyboard Events]
+keydown: Triggered when a key is pressed down.
+keyup: Triggered when a key is released.
+keypress: Triggered when a key is pressed down (deprecated in modern browsers; use keydown or keyup).
+
+
+[Form Events]
+submit: Triggered when a form is submitted.
+reset: Triggered when a form is reset.
+focus: Triggered when an element gains focus.
+blur: Triggered when an element loses focus.
+change: Triggered when an input value changes (for <input>, <textarea>, <select>).
+input: Triggered when a user enters input into an element.
+select: Triggered when text is selected inside an <input> or <textarea>.
+
+
+[Drag and Drop Events]
+drag: Triggered when an element is being dragged.
+dragstart: Triggered at the start of dragging.
+dragend: Triggered at the end of dragging.
+dragenter: Triggered when a dragged item enters a valid drop target.
+dragover: Triggered when a dragged item is over a valid drop target.
+dragleave: Triggered when a dragged item leaves a valid drop target.
+drop: Triggered when a dragged item is dropped.
+
+
+[Touch Events (Mobile/Touch devices)]
+touchstart: Triggered when a touch point is placed on the screen.
+touchmove: Triggered when a touch point is moved along the screen.
+touchend: Triggered when a touch point is removed from the screen.
+touchcancel: Triggered when a touch event is canceled.
+
+
+[Clipboard Events]
+copy: Triggered when content is copied.
+cut: Triggered when content is cut.
+paste: Triggered when content is pasted.
+
+
+[Media Events]
+play: Triggered when media starts playing.
+pause: Triggered when media is paused.
+ended: Triggered when media playback ends.
+volumechange: Triggered when the volume changes.
+seeking: Triggered when media is seeking to a new position.
+seeked: Triggered when seeking is complete.
+timeupdate: Triggered when the playback position changes.
+
+
+[Focus and Blur Events]
+focus: Triggered when an element gains focus.
+blur: Triggered when an element loses focus.
+
+
+[Window Events]
+load: Triggered when the page is fully loaded.
+unload: Triggered when the page is being unloaded.
+resize: Triggered when the browser window is resized.
+scroll: Triggered when the user scrolls.
+beforeunload: Triggered before the page is unloaded.
+
+
+[DOM Events]
+DOMContentLoaded: Triggered when the initial HTML document is fully loaded and parsed.
+readystatechange: Triggered when the readyState of the document changes.
+
+
+[Animation Events]
+animationstart: Triggered when a CSS animation starts.
+animationend: Triggered when a CSS animation ends.
+animationiteration: Triggered when a CSS animation completes an iteration.
+
+
+[Transition Events]
+transitionstart: Triggered when a CSS transition starts.
+transitionend: Triggered when a CSS transition ends.
+transitioncancel: Triggered when a CSS transition is canceled.
+
+
+[Error Events]
+error: Triggered when an error occurs in loading a resource (e.g., image).
+abort: Triggered when loading of a resource is aborted.
+
+
+[Pointer Events]
+pointerdown: Triggered when a pointer button is pressed.
+pointerup: Triggered when a pointer button is released.
+pointermove: Triggered when a pointer is moved.
+pointerover: Triggered when a pointer is over an element.
+pointerout: Triggered when a pointer leaves an element.
+pointercancel: Triggered when a pointer event is canceled.

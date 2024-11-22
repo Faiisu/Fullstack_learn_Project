@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> /* css */ 
+        /* comment*/
+        /* 1. which tag want to edit (id, class, DOM)
+        2.what want to edit?*/
+        .container{
+            height: 500px;
+        }
+
+        body{
+            background-color: azure;
+        }
+        
+        #registerH1{
+            /*edit id -> specific*/
+            color:blue;
+        }
+
+        .Header-form{
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .form{
+            display: block;
+        }
+
+        /*top, bottom, left, right*/
+        .relative{
+            position: relative;
+            left: 20px;
+        }
+        .absolute{
+            /* position shift relate from conner of windows and size don't effer to other block*/
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .fixed{
+            /*like absolute but follow windows*/
+            position:fixed;
+            top: 0;
+            right: 0;
+        }
+        .sticky{
+            position:sticky;
+            top: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <h1>CSS Position</h1>
+        <div>Static</div>
+        <div class="relative">relative</div>
+        <div class="absolute">Absolute</div>
+        <div class="fixed">Fixed</div>
+        <div class="sticky">sticky</div>
+    </div>
+
+    <h1 id = "registerH1">Register form</h1>
+    <div class = "Header-form">
+        <span>Name</span> <input class = "form" type = "text">
+        <span>Surname</span> <input class ="form" type = "text"><br>
+    </div>
+    Age<input type = "number">
+    <div>
+        <h3>gender</h3>
+        <div><input name = "gender" type="radio"> male</div>
+        <div><input name = "gender" type="radio"> female</div>
+        <div><input name = "gender" type="radio"> others</div>
+    </div>
+    <div>
+        <h3>Interested</h3>
+        <div><input name = "interest" type="checkbox"> A</div>
+        <div><input name = "interest" type="checkbox"> B</div>
+        <div><input name = "interest" type="checkbox"> C</div>
+    </div>
+    <div>
+        more infomation about you
+        <div>
+            <textarea></textarea>
+        </div>
+    </div>
+    <button>send</button>
+    <input type="submit" value ="send2">
+</body>
+</html>
